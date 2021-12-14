@@ -1,0 +1,23 @@
+.welcomeheader{
+    height: 65px;
+    background-color: rgba(207,35,56,1);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+.welcomecard{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    transform: translate(-30%);
+}
+.welcometitle{
+    color: rgba(207,35,56,1);
+}
+.welcomebtn{
+    background-color: rgba(207,35,56,1);
+}

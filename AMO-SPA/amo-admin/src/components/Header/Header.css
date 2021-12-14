@@ -1,0 +1,27 @@
+.narbav{
+    background-color: rgba(207,35,56,1);
+}
+#narbav_mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin-bottom: 45px;
+}
+#Home_mif{
+    white-space: nowrap;
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(250,252,252,1);
+}
+.user-dropdown > button, .user-dropdown:hover > button{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.user-dropdown > button:focus{
+    box-shadow: none;
+}

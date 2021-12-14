@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: Segoe UI, Arial;
+}
+.titleview {
+  color: rgba(207, 35, 56, 1);
+  font-weight: bold;
+  font-size: 16px;
+}
+.myformgroup {
+  width: 338px;
+  align-items: center;
+  justify-content: space-between;
+}
+.myinput.form-control {
+  width: 66.66666667%;
+}
+.myselect {
+  padding: 0;
+}
+.myformgroup-row {
+  align-items: center;
+}
+.myformgroup-row-textarea{
+  align-items: flex-start;
+}
+.myvalidfeedback {
+  position: absolute;
+  left: 51.5%;
+}
+/* --------------------------------------------- */
+.rookiecard {
+  border-style: none;
+}
+.ReactModal__Content {
+  padding: 0 !important;
+}
+.rookiecard-body {
+  padding: 0;
+}
+.rookiecard-body__title {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(207, 35, 56, 1);
+  border-style: solid;
+  border-color: black;
+  border-radius: 8px;
+  border-width: 1px;
+  background-color: rgba(239, 241, 245, 1);
+  padding: 10px 35px 10px 35px;
+  margin-bottom: 0rem;
+}
+.rookiecard-body-content {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+.rookiecard-body-content__text {
+  padding: 10px 35px 0 35px;
+}
+.rookiecard-body-content__group-btn {
+  padding: 10px 35px 10px 35px;
+}
+.rookiecard-body-content__btn--active {
+  background-color: rgba(207, 35, 56, 1);
+  border: rgba(207, 35, 56, 1);
+}
+/* --------------------------------------------- */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 15px;
+}
+
+td,
+th {
+  border-bottom: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  cursor: pointer;
+}
+/* --------------------------------------------- */
+.rookiemodal {
+  border-style: none;
+}
+.rookiemodal-body {
+  padding: 0;
+}
+.rookiemodal-body__title {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(207, 35, 56, 1);
+  border-style: solid;
+  border-color: black;
+  border-radius: 8px;
+  border-width: 1px;
+  background-color: rgba(239, 241, 245, 1);
+  padding: 10px 35px 10px 35px;
+  margin-bottom: 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rookiemodal-body-content {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 10px 35px 10px 35px;
+}
+
+.pagination {
+  display: block;
+  float: right;
+}
+
+.pagination li {
+  float: left;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  height: 40px;
+}
+
+.pagination li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 8px 16px;
+}
+
+.pagination li.active {
+  background-color: rgba(207, 35, 56, 1);
+  border: 1px solid rgba(207, 35, 56, 1);
+}
+
+.pagination li.active a {
+  color: white;
+}
+
+.disabled {
+  pointer-events: none;
+}
+.disabled a {
+  pointer-events: none;
+  color: grey !important;
+}
+/*-------------------------------------------------*/
+#filter-and-search-asset-grp{
+  display: flex;
+  justify-content: space-between;
+}
+#filter-and-search-asset-grp__filter{
+  display: flex;
+}
+#filter-and-search-asset-grp__filter:first-child{
+  margin-right: 10px;
+}
+/*--------------------------------------------------------*/
+#user-search-filter{
+  display: flex;
+  justify-content: space-between;
+}
+.text-area{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+}
+.error{
+  color: rgba(207, 35, 56, 1);
+}
+.btn-user-text,.btn-user-text:hover{
+  color: white;
+  text-decoration: none;
+}
+.btn-user-text.edit,.btn-user-text{
+  padding: 6px 12px;
+  display: inline-block;
+}
+.btn-user-text.edit-assignment{
+  padding: 6px 12px;
+  display: inline-block;
+  color: #fff !important;
+}
+.btn-user, #add-user-btn, #add-assignment-btn{
+  padding: 0;
+}
+#cancelUserBtn{
+  border-color: gray;
+  background-color: white;
+  color: gray;
+  margin-left: 12px;
+}
+#cancelUserBtn:hover{
+  background-color: gray;
+  color: white;
+  margin-left: 12px;
+}
+.assign-date-filter{
+  border-radius: 5px !important;
+  width: 175px !important;
+  height: 39px !important;
+  margin-left: 20px !important;
+}
+.search-list-pop-up{
+  float: right;
+}
+.title-list-pop-up{
+  display: inline-block;
+  color: rgba(207, 35, 56, 1);
+  font-weight: bold;
+  font-size: 20px;
+  margin: 4px;
+}
+.display-none{
+  display: none !important;
+}
+/*-------------------------------------*/
+.user-search-filter-select{
+  display: flex;
+}
+/*--------------------------------------*/
+#historyAssignmenttbl table{
+  border-spacing: 6px;
+}
+/*----------------------Button----------------------------*/
+.rookie-group-btn{
+  display: flex;
+  justify-content: space-around;
+}
+/*-------------------Check buttom--------------------*/
+.check_gf {
+  overflow: visible;
+  width: 15.102px;
+  height: 15px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#check_gf {
+  fill: rgba(227,12,24,1);
+  stroke: rgba(227,12,24,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+  cursor: pointer;
+}
+.check {
+  overflow: visible;
+  width: 15.102px;
+  height: 15px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#check {
+  opacity: 0.6;
+  fill: rgba(227,12,24,1);
+  stroke: rgba(227,12,24,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+/*-------------------Cancel button--------------------*/
+.x-square-fill {
+  overflow: visible;
+  width: 14.628px;
+  height: 14.628px;
+  transform: matrix(1,0,0,1,0,0);
+  transition: all 0.3s ease-out;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: Request_for_returning___Cancel.html;
+  cursor: pointer;
+}
+#x-square-fill {
+  fill: transparent;
+  stroke: rgba(0,0,0,1);
+  stroke-width: 2.5px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.x-square-fill_g {
+  overflow: visible;
+  width: 14.628px;
+  height: 14.628px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#x-square-fill_g {
+  opacity: 0.5;
+  fill: transparent;
+  stroke: rgba(0,0,0,1);
+  stroke-width: 2.5px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+/*-------------------Edit button--------------------*/
+.edit_icon_xl {
+  overflow: visible;
+  width: 16.001px;
+  height: 16px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#edit_icon_xl {
+  opacity: 0.5;
+  fill: rgba(112,112,112,1);
+}
+.edit_icon_xp {
+  overflow: visible;
+  width: 16.001px;
+  height: 16px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#edit_icon_xp {
+  fill: rgba(112,112,112,1);
+}
+/*-------------------Cross-X button--------------------*/
+.x-circle-fill_xr {
+  overflow: visible;
+  width: 17px;
+  height: 17px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#x-circle-fill_xr {
+  fill: rgba(239,241,245,1);
+  stroke: rgba(207,35,56,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.x-circle-fill_xn {
+  overflow: visible;
+  width: 17px;
+  height: 17px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#x-circle-fill_xn {
+  opacity: 0.5;
+  fill: rgba(239,241,245,1);
+  stroke: rgba(207,35,56,1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+/*-------------------Circle arrow button--------------------*/
+.Path_19_mh {
+  overflow: visible;
+  width: 14.227px;
+  height: 14.17px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Path_19_mh {
+  fill: rgba(87,107,227,1);
+  stroke: rgba(87,107,227,1);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Path_19_mib {
+  overflow: visible;
+  width: 14.227px;
+  height: 14.17px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Path_19_mib {
+  fill: rgba(126,126,126,1);
+  stroke: rgba(124,124,124,1);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+/*-------------------x-square button--------------------*/
+.x-square-fill_kx {
+  overflow: visible;
+  width: 22.5px;
+  height: 22.5px;
+  left: 407px;
+  top: 24px;
+  transform: matrix(1,0,0,1,0,0);
+  transition: all 0.3s ease-out;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: Manage_User.html;
+  cursor: pointer;
+}
+#x-square-fill_kx {
+  fill: transparent;
+  stroke: rgba(227,12,24,1);
+  stroke-width: 2.5px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.input-icon{
+  background: url(./search-icon-transparent-9.jpg) no-repeat scroll;
+  background-size: 60px;
+  background-position: right center;
+}
+.calendar-icon{
+  background: url(./blank-calendar-icon-png-white-transparent-calendar-icon.png) no-repeat scroll;
+  background-size: 25px;
+  background-position: 140px 3px;
+}
+.clear-date-button{
+  width: 45px !important;
+  background-color: #216ba5 !important;
+  padding-left: 13px !important;
+}
+.clear-date-button::after{
+  font-size: 27px !important;
+  padding-bottom: 8px !important;
+  padding-left: 0px !important;
+}
